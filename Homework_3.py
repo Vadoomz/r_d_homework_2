@@ -30,6 +30,6 @@ print (q == 1)
 a=2
 b=5
 c=6
-d = int(f'{str(a)}{str(b)}{str(c)}')
-print(d)
+d = str(f'{str(a)}{str(b)}{str(c)}')
+print (d)
 
