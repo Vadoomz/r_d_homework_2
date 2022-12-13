@@ -6,9 +6,9 @@
 def type_checker():
     enter = input("Enter your text ")
     if(enter.isdigit() == True):
-        if (float(enter) % 2 == 0):
+        if (int(enter) % 2 == 0):
             print('Your enter is even number')
-        elif (float(enter) % 2 != 0):
+        elif (int(enter) % 2 != 0):
             print('Your enter is odd number')
     else:
         print(f'Your enter is text {len(enter)} symbols long')
