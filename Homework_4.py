@@ -5,10 +5,10 @@
 
 def type_checker():
     enter = input("Enter your text ")
-    if(enter.isdigit() == True):
-        if (int(enter) % 2 == 0):
+    if enter.isdigit():
+        if int(enter) % 2:
             print('Your enter is even number')
-        elif (int(enter) % 2 != 0):
+        elif int(enter) % 2 != 0:
             print('Your enter is odd number')
     else:
         print(f'Your enter is text {len(enter)} symbols long')
