@@ -1,0 +1,370 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+new file mode 100644
+--- /dev/null	(date 1672261998769)
++++ b/.idea/workspace.xml	(date 1672261998769)
+@@ -0,0 +1,342 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ChangeListManager">
++    <list default="true" id="fa7acd16-ce17-4d6c-9afb-201f7f480833" name="Default Changelist" comment="Homework_6_n">
++      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++    </list>
++    <option name="SHOW_DIALOG" value="false" />
++    <option name="HIGHLIGHT_CONFLICTS" value="true" />
++    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
++    <option name="LAST_RESOLUTION" value="IGNORE" />
++  </component>
++  <component name="FileTemplateManagerImpl">
++    <option name="RECENT_TEMPLATES">
++      <list>
++        <option value="Python Script" />
++      </list>
++    </option>
++  </component>
++  <component name="Git.Settings">
++    <favorite-branches>
++      <branch-storage>
++        <map>
++          <entry type="LOCAL">
++            <value>
++              <list>
++                <branch-info repo="$PROJECT_DIR$" source="main" />
++              </list>
++            </value>
++          </entry>
++        </map>
++      </branch-storage>
++    </favorite-branches>
++    <option name="RECENT_BRANCH_BY_REPOSITORY">
++      <map>
++        <entry key="$PROJECT_DIR$" value="Homework_3" />
++      </map>
++    </option>
++    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
++  </component>
++  <component name="ProjectId" id="2IJtajZDaKqmbjAD5UFZTwqOQtY" />
++  <component name="ProjectLevelVcsManager">
++    <ConfirmationsSetting value="2" id="Add" />
++  </component>
++  <component name="ProjectViewState">
++    <option name="hideEmptyMiddlePackages" value="true" />
++    <option name="showLibraryContents" value="true" />
++  </component>
++  <component name="PropertiesComponent">
++    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
++    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
++    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
++    <property name="ToolWindowCommit.ShowToolbar" value="false" />
++    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
++    <property name="last_opened_file_path" value="$PROJECT_DIR$/hw_7new.py" />
++    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
++  </component>
++  <component name="RecentsManager">
++    <key name="CopyFile.RECENT_KEYS">
++      <recent name="C:\Users\vadym\PycharmProjects\r_d_homework_2" />
++    </key>
++  </component>
++  <component name="RunManager" selected="Python.hw_7new">
++    <configuration name="HW_5" type="PythonConfigurationType" factoryName="Python">
++      <module name="r_d_homework_2" />
++      <option name="INTERPRETER_OPTIONS" value="" />
++      <option name="PARENT_ENVS" value="true" />
++      <envs>
++        <env name="PYTHONUNBUFFERED" value="1" />
++      </envs>
++      <option name="SDK_HOME" value="" />
++      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
++      <option name="IS_MODULE_SDK" value="true" />
++      <option name="ADD_CONTENT_ROOTS" value="true" />
++      <option name="ADD_SOURCE_ROOTS" value="true" />
++      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HW_5.py" />
++      <option name="PARAMETERS" value="" />
++      <option name="SHOW_COMMAND_LINE" value="false" />
++      <option name="EMULATE_TERMINAL" value="false" />
++      <option name="MODULE_MODE" value="false" />
++      <option name="REDIRECT_INPUT" value="false" />
++      <option name="INPUT_FILE" value="" />
++      <method v="2" />
++    </configuration>
++    <configuration name="hw_7new" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
++      <option name="INTERPRETER_OPTIONS" value="" />
++      <option name="PARENT_ENVS" value="true" />
++      <envs>
++        <env name="PYTHONUNBUFFERED" value="1" />
++      </envs>
++      <option name="SDK_HOME" value="C:\Users\vadym\PycharmProjects\pythonProject\venv\Scripts\python.exe" />
++      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
++      <option name="IS_MODULE_SDK" value="false" />
++      <option name="ADD_CONTENT_ROOTS" value="true" />
++      <option name="ADD_SOURCE_ROOTS" value="true" />
++      <module name="" />
++      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hw_7new.py" />
++      <option name="PARAMETERS" value="" />
++      <option name="SHOW_COMMAND_LINE" value="false" />
++      <option name="EMULATE_TERMINAL" value="false" />
++      <option name="MODULE_MODE" value="false" />
++      <option name="REDIRECT_INPUT" value="false" />
++      <option name="INPUT_FILE" value="" />
++      <method v="2" />
++    </configuration>
++    <list>
++      <item itemvalue="Python.hw_7new" />
++      <item itemvalue="Python.HW_5" />
++    </list>
++  </component>
++  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
++  <component name="TaskManager">
++    <task active="true" id="Default" summary="Default task">
++      <changelist id="fa7acd16-ce17-4d6c-9afb-201f7f480833" name="Default Changelist" comment="" />
++      <created>1669911580051</created>
++      <option name="number" value="Default" />
++      <option name="presentableId" value="Default" />
++      <updated>1669911580051</updated>
++    </task>
++    <task id="LOCAL-00001" summary="Homework_3">
++      <created>1670509573295</created>
++      <option name="number" value="00001" />
++      <option name="presentableId" value="LOCAL-00001" />
++      <option name="project" value="LOCAL" />
++      <updated>1670509573295</updated>
++    </task>
++    <task id="LOCAL-00002" summary="Homework_4.py">
++      <created>1670692752551</created>
++      <option name="number" value="00002" />
++      <option name="presentableId" value="LOCAL-00002" />
++      <option name="project" value="LOCAL" />
++      <updated>1670692752551</updated>
++    </task>
++    <task id="LOCAL-00003" summary="Homework_4.py">
++      <created>1670692812041</created>
++      <option name="number" value="00003" />
++      <option name="presentableId" value="LOCAL-00003" />
++      <option name="project" value="LOCAL" />
++      <updated>1670692812041</updated>
++    </task>
++    <task id="LOCAL-00004" summary="Homework_4.py">
++      <created>1670694182409</created>
++      <option name="number" value="00004" />
++      <option name="presentableId" value="LOCAL-00004" />
++      <option name="project" value="LOCAL" />
++      <updated>1670694182409</updated>
++    </task>
++    <task id="LOCAL-00005" summary="Homework_4.py">
++      <created>1670860668971</created>
++      <option name="number" value="00005" />
++      <option name="presentableId" value="LOCAL-00005" />
++      <option name="project" value="LOCAL" />
++      <updated>1670860668971</updated>
++    </task>
++    <task id="LOCAL-00006" summary="Homework_4.py">
++      <created>1670950828515</created>
++      <option name="number" value="00006" />
++      <option name="presentableId" value="LOCAL-00006" />
++      <option name="project" value="LOCAL" />
++      <updated>1670950828515</updated>
++    </task>
++    <task id="LOCAL-00007" summary="Homework_4.py">
++      <created>1670951476971</created>
++      <option name="number" value="00007" />
++      <option name="presentableId" value="LOCAL-00007" />
++      <option name="project" value="LOCAL" />
++      <updated>1670951476971</updated>
++    </task>
++    <task id="LOCAL-00008" summary="Homework_4.py">
++      <created>1670951967687</created>
++      <option name="number" value="00008" />
++      <option name="presentableId" value="LOCAL-00008" />
++      <option name="project" value="LOCAL" />
++      <updated>1670951967687</updated>
++    </task>
++    <task id="LOCAL-00009" summary="Homework_3.py">
++      <created>1671136908465</created>
++      <option name="number" value="00009" />
++      <option name="presentableId" value="LOCAL-00009" />
++      <option name="project" value="LOCAL" />
++      <updated>1671136908465</updated>
++    </task>
++    <task id="LOCAL-00010" summary="Homework_3.py">
++      <created>1671139763404</created>
++      <option name="number" value="00010" />
++      <option name="presentableId" value="LOCAL-00010" />
++      <option name="project" value="LOCAL" />
++      <updated>1671139763404</updated>
++    </task>
++    <task id="LOCAL-00011" summary="Homework_4.py">
++      <created>1671210690927</created>
++      <option name="number" value="00011" />
++      <option name="presentableId" value="LOCAL-00011" />
++      <option name="project" value="LOCAL" />
++      <updated>1671210690927</updated>
++    </task>
++    <task id="LOCAL-00012" summary="Homework_5.py">
++      <created>1671212167709</created>
++      <option name="number" value="00012" />
++      <option name="presentableId" value="LOCAL-00012" />
++      <option name="project" value="LOCAL" />
++      <updated>1671212167709</updated>
++    </task>
++    <task id="LOCAL-00013" summary="Homework_4_changed.py">
++      <created>1671367704912</created>
++      <option name="number" value="00013" />
++      <option name="presentableId" value="LOCAL-00013" />
++      <option name="project" value="LOCAL" />
++      <updated>1671367704912</updated>
++    </task>
++    <task id="LOCAL-00014" summary="Homework_4_changed.py">
++      <created>1671368147416</created>
++      <option name="number" value="00014" />
++      <option name="presentableId" value="LOCAL-00014" />
++      <option name="project" value="LOCAL" />
++      <updated>1671368147416</updated>
++    </task>
++    <task id="LOCAL-00015" summary="Homework_4_changed.py">
++      <created>1671368909235</created>
++      <option name="number" value="00015" />
++      <option name="presentableId" value="LOCAL-00015" />
++      <option name="project" value="LOCAL" />
++      <updated>1671368909235</updated>
++    </task>
++    <task id="LOCAL-00016" summary="Homework_4_changed.py">
++      <created>1671369876302</created>
++      <option name="number" value="00016" />
++      <option name="presentableId" value="LOCAL-00016" />
++      <option name="project" value="LOCAL" />
++      <updated>1671369876302</updated>
++    </task>
++    <task id="LOCAL-00017" summary="Homework_4_changed.py">
++      <created>1671370572062</created>
++      <option name="number" value="00017" />
++      <option name="presentableId" value="LOCAL-00017" />
++      <option name="project" value="LOCAL" />
++      <updated>1671370572062</updated>
++    </task>
++    <task id="LOCAL-00018" summary="Homework_4_changed2.py">
++      <created>1671371526174</created>
++      <option name="number" value="00018" />
++      <option name="presentableId" value="LOCAL-00018" />
++      <option name="project" value="LOCAL" />
++      <updated>1671371526174</updated>
++    </task>
++    <task id="LOCAL-00019" summary="Homework_5_changed.py">
++      <created>1671372607574</created>
++      <option name="number" value="00019" />
++      <option name="presentableId" value="LOCAL-00019" />
++      <option name="project" value="LOCAL" />
++      <updated>1671372607574</updated>
++    </task>
++    <task id="LOCAL-00020" summary="Homework_5_changed.py">
++      <created>1671398147129</created>
++      <option name="number" value="00020" />
++      <option name="presentableId" value="LOCAL-00020" />
++      <option name="project" value="LOCAL" />
++      <updated>1671398147129</updated>
++    </task>
++    <task id="LOCAL-00021" summary="Homework_5_changed.py">
++      <created>1671398270851</created>
++      <option name="number" value="00021" />
++      <option name="presentableId" value="LOCAL-00021" />
++      <option name="project" value="LOCAL" />
++      <updated>1671398270851</updated>
++    </task>
++    <task id="LOCAL-00022" summary="Homework_4change.py">
++      <created>1671466891585</created>
++      <option name="number" value="00022" />
++      <option name="presentableId" value="LOCAL-00022" />
++      <option name="project" value="LOCAL" />
++      <updated>1671466891586</updated>
++    </task>
++    <task id="LOCAL-00023" summary="Homework_6">
++      <created>1671717923408</created>
++      <option name="number" value="00023" />
++      <option name="presentableId" value="LOCAL-00023" />
++      <option name="project" value="LOCAL" />
++      <updated>1671717923408</updated>
++    </task>
++    <task id="LOCAL-00024" summary="Homework_6new">
++      <created>1671718223018</created>
++      <option name="number" value="00024" />
++      <option name="presentableId" value="LOCAL-00024" />
++      <option name="project" value="LOCAL" />
++      <updated>1671718223018</updated>
++    </task>
++    <task id="LOCAL-00025" summary="Homework_6_n">
++      <created>1672158683578</created>
++      <option name="number" value="00025" />
++      <option name="presentableId" value="LOCAL-00025" />
++      <option name="project" value="LOCAL" />
++      <updated>1672158683578</updated>
++    </task>
++    <option name="localTasksCounter" value="26" />
++    <servers />
++  </component>
++  <component name="Vcs.Log.Tabs.Properties">
++    <option name="TAB_STATES">
++      <map>
++        <entry key="MAIN">
++          <value>
++            <State>
++              <option name="CUSTOM_BOOLEAN_PROPERTIES">
++                <map>
++                  <entry key="Show.Git.Branches" value="false" />
++                </map>
++              </option>
++              <option name="FILTERS">
++                <map>
++                  <entry key="branch">
++                    <value>
++                      <list>
++                        <option value="origin/Homework_3" />
++                      </list>
++                    </value>
++                  </entry>
++                </map>
++              </option>
++            </State>
++          </value>
++        </entry>
++      </map>
++    </option>
++    <option name="oldMeFiltersMigrated" value="true" />
++  </component>
++  <component name="VcsManagerConfiguration">
++    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
++    <MESSAGE value="Homework_3" />
++    <MESSAGE value="Homework_3.py" />
++    <MESSAGE value="Homework_4.py" />
++    <MESSAGE value="Homework_5.py" />
++    <MESSAGE value="Homework_4_changed.py" />
++    <MESSAGE value="Homework_4_changed2.py" />
++    <MESSAGE value="Homework_5_changed.py" />
++    <MESSAGE value="Homework_4change.py" />
++    <MESSAGE value="Homework_6" />
++    <MESSAGE value="Homework_6new" />
++    <MESSAGE value="Homework_6_n" />
++    <option name="LAST_COMMIT_MESSAGE" value="Homework_6_n" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+new file mode 100644
+--- /dev/null	(date 1672256805674)
++++ b/.idea/vcs.xml	(date 1672256805674)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
