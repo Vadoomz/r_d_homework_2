@@ -2,17 +2,16 @@
 # Декоратор має працювати для різних функцій однаково.
 import time
 def my_decorator(func):
-    def deco_func():
-        print(time.strftime("%H:%M:%S"))
-        func()
-        print(func.__name__)
-    return deco_func()
-
+    def deco_func(*args, **kwargs):
+        func(*args, **kwargs)
+        print('Time of call function',func.__name__, 'is',time.strftime("%H:%M:%S"))
+    return deco_func
 @my_decorator
-def my_func():
-    pass
-
-# Написати кастомний Exception клас, MyCustomException, який має повідомляти "Custom exception is occured".
+def my_func(par):
+  print(par**par)
+my_func(3)
+#
+# # Написати кастомний Exception клас, MyCustomException, який має повідомляти "Custom exception is occured".
 class MyCustomException(Exception):
     pass
 try:
@@ -30,10 +29,11 @@ class CtxManager:
         print('==========')
     def __exit__(self, exc_type, exc_val, exc_tb):
         print('==========')
-
+        if exc_type:
+            print('exit exception text: %s' % exc_val)
+        return True
 def printing():
     print('Printing in progress...')
-
 with CtxManager(2) as call:
     printing()
 
