@@ -42,11 +42,26 @@ else:
 # і JSON string в dict (при читанні із файлу). Файл слід оновлювати після кожної успішної операції add або delete.
 #
 # 2. Написати декоратор, який буде записувати в файл назву функції, яку він декорує, і писати час її виклику.
-#
+import time
+def my_decorator(func):
+    def deco_func(*args, **kwargs):
+        func(*args, **kwargs)
+        with open('New_txt.TXT', 'a+') as file:
+            n = func.__name__
+            t = time.strftime("%H:%M:%S")
+            note = f'Time of call function, {n}, is, {t}'
+            file.write(note+'\n')
+    return deco_func
+@my_decorator
+def my_func(par):
+  print(par**par)
+my_func(3)
 # 3. В попередньо написаний кастомний Exception додати запис помилки і час її виникнення у файл.
 class MyCustomException(Exception):
     pass
 try:
   raise MyCustomException('Custom exception is occured')
 except Exception as error:
-  print(error)
+  with open ('error_file.TXT', 'a+') as erfile:
+      ertext = str(error)
+      erfile.write(ertext)
