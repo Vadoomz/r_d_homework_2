@@ -1,41 +1,43 @@
 # 1. Використати файл як базу даних для збереження записів телефонної книги із попередніх завдань.
 import json
-enter = input('''You can see all contacts(stats), all names(list), someone\'s number(show) or (add), (delete) contacts.
-Enter your command: ''')
-if enter == 'add':
-  name = input('Enter name to add: ')
-  phone = input('Enter phone to add: ')
-  with open('Newj.JSON','r+') as handle:
-    js = json.load(handle)
-    phone_record = js.setdefault(name, phone)
-  with open('Newj.JSON','w') as f:
-      json.dump(js, f)
-elif enter == 'stats':
-    with open('Newj.JSON', 'r+') as handle:
-        js = json.load(handle)
-        print(js.values())
-elif enter == 'delete':
-    delete = input('Enter name you want to delete: ')
-    with open('Newj.JSON', 'r+') as handle:
-        js = json.load(handle)
-    if delete in js:
-        del js[delete]
-        with open('Newj.JSON','w') as f:
+phone_book = {'Vadym':'0665699589'}
+while True:
+    enter = input('''You can see all contacts(stats), all names(list), someone\'s number(show) or (add), (delete) contacts.
+    Enter your command: ''')
+    if enter == 'add':
+        name = input('Enter name to add: ')
+        phone = input('Enter phone to add: ')
+        with open('Newj.JSON', 'r+') as handle:
+            js = json.load(handle)
+            phone_book = js.setdefault(name, phone)
+        with open('Newj.JSON', 'w') as f:
             json.dump(js, f)
-        print(f'Contact {delete} was successfully deleted')
+    elif enter == 'stats':
+        with open('Newj.JSON', 'r+') as handle:
+            js = json.load(handle)
+            print(js.values())
+    elif enter == 'delete':
+        delete = input('Enter name you want to delete: ')
+        with open('Newj.JSON', 'r+') as handle:
+            js = json.load(handle)
+        if delete in js:
+            del js[delete]
+            with open('Newj.JSON', 'w') as f:
+                json.dump(js, f)
+            print(f'Contact {delete} was successfully deleted')
+        else:
+            print('Sorry, there is no such contact here')
+    elif enter == 'list':
+        with open('Newj.JSON', 'r+') as handle:
+            js = json.load(handle)
+        print(js.keys())
+    elif enter == 'show':
+        show = input('Find your contact by name: ')
+        with open('Newj.JSON', 'r+') as handle:
+            js = json.load(handle)
+        print(js.get(show, 'Sorry, there is no such contact here'))
     else:
-        print('Sorry, there is no such contact here')
-elif enter == 'list':
-    with open('Newj.JSON', 'r+') as handle:
-        js = json.load(handle)
-    print(js.keys())
-elif enter == 'show':
-    show = input('Find your contact by name: ')
-    with open('Newj.JSON', 'r+') as handle:
-        js = json.load(handle)
-    print(js.get(show, 'Sorry, there is no such contact here'))
-else:
-    print('You entered something unexpected. Try again')
+        print('You entered something unexpected. Try again')
 # Ваша телефонна книга, що до цього містилася в dict, має зберігатися у вигляді тексту в JSON форматі.
 # При закритті програми і повторному відкритті всі попередні дані мають бути доступними.
 # Підказка: Ви можете використати бібліотеку json, яка допоможе із перетворенням dict в JSON string (при записі в файл)
@@ -45,23 +47,30 @@ else:
 import time
 def my_decorator(func):
     def deco_func(*args, **kwargs):
-        func(*args, **kwargs)
+        f = func(*args, **kwargs)
         with open('New_txt.TXT', 'a+') as file:
             n = func.__name__
             t = time.strftime("%H:%M:%S")
             note = f'Time of call function, {n}, is, {t}'
             file.write(note+'\n')
+        return f
     return deco_func
 @my_decorator
 def my_func(par):
   print(par**par)
 my_func(3)
 # 3. В попередньо написаний кастомний Exception додати запис помилки і час її виникнення у файл.
+import time
 class MyCustomException(Exception):
-    pass
+    def __init__(self, message = 'Custom exception is occured at '):
+        self.message = message
+        with open('error_file.TXT', 'a+') as erfile:
+            t = time.strftime("%H:%M:%S")
+            ertext = str(message + t + '\n')
+            erfile.write(ertext)
 try:
-  raise MyCustomException('Custom exception is occured')
-except Exception as error:
-  with open ('error_file.TXT', 'a+') as erfile:
-      ertext = str(error)
-      erfile.write(ertext)
+    a=10/2
+    if a == 5:
+        raise MyCustomException
+except MyCustomException:
+    print("Check some error in file 'error_file.TXT'")

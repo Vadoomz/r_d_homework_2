@@ -1,1 +1,2 @@
-Time of call function',func.__name__, 'is',time.strftime("%H:%M:%S")Time of call function, my_func, is, 21:11:00
+Time of call function',func.__name__, 'is',time.strftime("%H:%M:%S")Time of call function, my_func, is, 21:11:00Time of call function, my_func, is, 22:03:04
+Time of call function, my_func, is, 22:03:45
