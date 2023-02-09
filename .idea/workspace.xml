@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa7acd16-ce17-4d6c-9afb-201f7f480833" name="Default Changelist" comment="Homework_6_n">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_28_12_2022_23_16_[Default_Changelist]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_28_12_2022_23_16__Default_Changelist_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Newj.JSON" beforeDir="false" afterPath="$PROJECT_DIR$/Newj.JSON" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw_9.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw_9.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw10.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw10.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +55,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="ToolWindowCommit.ShowToolbar" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/hw_9.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/hw10.py" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
@@ -65,7 +63,7 @@
       <recent name="C:\Users\vadym\PycharmProjects\r_d_homework_2" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.hw_9">
+  <component name="RunManager" selected="Python.hw10">
     <configuration name="HW_5" type="PythonConfigurationType" factoryName="Python">
       <module name="r_d_homework_2" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -87,7 +85,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="hw_9" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+    <configuration name="hw10" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -99,7 +97,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hw_9.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hw10.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -109,7 +107,7 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.hw_9" />
+      <item itemvalue="Python.hw10" />
       <item itemvalue="Python.HW_5" />
     </list>
   </component>
