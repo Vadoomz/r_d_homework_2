@@ -3,9 +3,10 @@
 import time
 def my_decorator(func):
     def deco_func(*args, **kwargs):
-        func(*args, **kwargs)
+        re = func(*args, **kwargs)
         print('Time of call function',func.__name__, 'is',time.strftime("%H:%M:%S"))
-    return func
+        return re
+    return deco_func
 @my_decorator
 def my_func(par):
   print(par**par)
