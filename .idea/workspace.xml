@@ -17,6 +17,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="origin/main" />
+  </component>
   <component name="Git.Settings">
     <favorite-branches>
       <branch-storage>
@@ -54,7 +57,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="ToolWindowCommit.ShowToolbar" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/hw_8_new.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/hw10.py" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
@@ -62,7 +65,7 @@
       <recent name="C:\Users\vadym\PycharmProjects\r_d_homework_2" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.hw_8_new">
+  <component name="RunManager" selected="Python.hw10">
     <configuration name="HW_5" type="PythonConfigurationType" factoryName="Python">
       <module name="r_d_homework_2" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -84,7 +87,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="hw_8_new" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+    <configuration name="hw10" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -96,7 +99,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hw_8_new.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hw10.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -106,7 +109,7 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.hw_8_new" />
+      <item itemvalue="Python.hw10" />
       <item itemvalue="Python.HW_5" />
     </list>
   </component>
