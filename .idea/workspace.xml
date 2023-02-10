@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="fa7acd16-ce17-4d6c-9afb-201f7f480833" name="Default Changelist" comment="Homework_6_n">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Newj.JSON" beforeDir="false" afterPath="$PROJECT_DIR$/Newj.JSON" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw10.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw10.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +15,9 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="origin/main" />
   </component>
   <component name="Git.Settings">
     <favorite-branches>
