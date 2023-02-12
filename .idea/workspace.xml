@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="fa7acd16-ce17-4d6c-9afb-201f7f480833" name="Default Changelist" comment="Homework_6_n">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/New_txt.TXT" beforeDir="false" afterPath="$PROJECT_DIR$/New_txt.TXT" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Newj.JSON" beforeDir="false" afterPath="$PROJECT_DIR$/Newj.JSON" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hw_9.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw_9.py" afterDir="false" />
     </list>
@@ -35,7 +34,7 @@
     </favorite-branches>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="homework_7" />
+        <entry key="$PROJECT_DIR$" value="Homework_10" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -56,7 +55,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="ToolWindowCommit.ShowToolbar" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/error_file.TXT" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Newj.JSON" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
