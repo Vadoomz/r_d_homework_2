@@ -1,0 +1,13 @@
+  INSERT INTO FOLKS (first_name, last_name, age)
+  VALUES ('Jey', 'Street', 36);
+ 
+  INSERT INTO FOLKS (last_name, first_name, age)
+  VALUES ('Silent','Bob', 41);
+   
+  INSERT INTO FOLKS (first_name, last_name)
+  VALUES ('Vadym','Marchenko');
+  
+  INSERT INTO FOLKS VALUES ('Doggo','Mexicanos', 3);
+  
+  INSERT INTO FOLKS
+  SELECT 5, 'Garold', 'Kumarenko', age FROM folks WHERE id = 1
