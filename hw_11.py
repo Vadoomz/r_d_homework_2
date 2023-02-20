@@ -13,6 +13,7 @@ class Bot:
 bot = Bot("Marvin")
 bot.say_name()
 bot.send_message("Hello")
+
 # 2. Створити клас TelegramBot, який має бути унаслідуваний від Bot та має містити:
 # власні атрибути url, chat_id (None за замовчуванням)
 # методи send_message, set_url та set_chat_id.
